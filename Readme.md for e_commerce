@@ -1,0 +1,219 @@
+# 🛒 E-commerce Laptop Recommendation System using Machine Learning
+
+## 📌 Project Overview
+
+This project is an **E-commerce Laptop Recommendation System** developed as part of **Mission 2** of the Machine Learning Internship. The system recommends laptops based on their specifications using machine learning techniques. It helps users discover similar products by analyzing laptop features and generating personalized recommendations.
+
+The project demonstrates the implementation of:
+
+- Content-Based Filtering
+- Collaborative Filtering
+- Hybrid Recommendation System
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Evaluation
+
+---
+
+## 🎯 Objectives
+
+- Clean and preprocess laptop data.
+- Perform Exploratory Data Analysis (EDA).
+- Extract useful features from laptop specifications.
+- Build a Content-Based Recommendation System using TF-IDF and Cosine Similarity.
+- Implement Collaborative Filtering using Singular Value Decomposition (SVD).
+- Develop a Hybrid Recommendation System by combining both approaches.
+- Evaluate the recommendation model using standard metrics.
+
+---
+
+## 📂 Dataset
+
+**Dataset Name:** Laptop Price Dataset
+
+The dataset contains **1303 laptop records** with the following attributes:
+
+- Company
+- Product
+- TypeName
+- Inches
+- ScreenResolution
+- CPU
+- RAM
+- Memory
+- GPU
+- Operating System
+- Weight
+- Price (Euros)
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Surprise Library
+
+---
+
+## ⚙️ Machine Learning Techniques
+
+### Data Preprocessing
+
+- Handling missing values
+- Removing duplicates
+- Cleaning RAM and Weight columns
+- Data type conversion
+
+### Exploratory Data Analysis
+
+- Price Distribution
+- Brand Distribution
+- RAM Distribution
+- CPU Analysis
+- GPU Analysis
+- Operating System Analysis
+- Correlation Heatmap
+- Scatter Plots
+
+### Feature Engineering
+
+- CPU Brand Extraction
+- GPU Brand Extraction
+- Storage Type Identification
+- Touchscreen Detection
+- IPS Display Detection
+- Combined Feature Generation
+
+### Content-Based Recommendation
+
+- TF-IDF Vectorization
+- Cosine Similarity
+- Similar Laptop Recommendation
+
+### Collaborative Filtering
+
+- User-Item Matrix
+- Singular Value Decomposition (SVD)
+
+### Hybrid Recommendation
+
+Combination of:
+
+- Content-Based Filtering
+- Collaborative Filtering
+
+---
+
+## 📊 Model Evaluation
+
+The recommendation system was evaluated using:
+
+- Root Mean Square Error (RMSE)
+- Mean Absolute Error (MAE)
+- Cosine Similarity Scores
+
+---
+
+## 📁 Project Structure
+
+```
+Laptop-Recommendation-System/
+
+│── Laptop_Recommendation_System.ipynb
+│── laptop_price.csv
+│── README.md
+│── requirements.txt
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/yourusername/Laptop-Recommendation-System.git
+```
+
+2. Open the notebook in Google Colab or Jupyter Notebook.
+
+3. Install required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Upload the dataset.
+
+5. Run all notebook cells sequentially.
+
+---
+
+## 📈 Features
+
+- Data Cleaning
+- Feature Engineering
+- Interactive Visualizations
+- Content-Based Recommendation
+- Collaborative Filtering
+- Hybrid Recommendation
+- Model Evaluation
+
+---
+
+## 📷 Sample Output
+
+The system recommends laptops similar to the selected product along with:
+
+- Company
+- Product Name
+- CPU
+- RAM
+- Storage
+- GPU
+- Price
+- Similarity Score
+
+---
+
+## 📌 Internship Mission Checklist
+
+- ✅ Dataset Cleaned and Processed
+- ✅ Exploratory Data Analysis Completed
+- ✅ Feature Engineering Completed
+- ✅ Content-Based Recommendation System
+- ✅ Collaborative Filtering
+- ✅ Hybrid Recommendation Model
+- ✅ Cosine Similarity
+- ✅ Model Evaluation
+- ✅ Recommendation Results Generated
+
+---
+
+## 🔮 Future Enhancements
+
+- Deep Learning Recommendation Models
+- Real User Ratings Integration
+- Web Application Deployment
+- Personalized User Profiles
+- Real-Time Recommendation Engine
+
+---
+
+## 👨‍💻 Author
+
+**Khabhilash Padavala**
+
+Machine Learning Internship – Mission 2
+
+---
+
+## 📜 License
+
+This project is developed for educational and internship purposes.
