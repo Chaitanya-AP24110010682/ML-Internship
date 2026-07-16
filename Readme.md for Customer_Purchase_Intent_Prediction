@@ -1,0 +1,68 @@
+# Customer Purchase Intent Prediction
+
+## Overview
+
+This project predicts whether an online customer is likely to complete a purchase based on browsing behavior using machine learning.
+
+## Objectives
+
+- Clean and preprocess customer behavior data
+- Perform Exploratory Data Analysis (EDA)
+- Engineer meaningful features
+- Train multiple classification models
+- Compare model performance
+- Perform hyperparameter tuning
+- Identify important features
+- Save the best model
+- Generate predictions
+
+## Dataset
+
+Online Shoppers Purchasing Intention Dataset
+
+Features include:
+- Administrative
+- Informational
+- ProductRelated
+- BounceRates
+- ExitRates
+- PageValues
+- Month
+- VisitorType
+- Weekend
+
+Target:
+- Revenue
+
+## Models Used
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC
+- Confusion Matrix
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Joblib
+
+## Results
+
+Random Forest produced the best performance after hyperparameter tuning.
+
+The trained model was saved using Joblib and predictions were exported as a CSV file.
+
